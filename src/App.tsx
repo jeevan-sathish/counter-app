@@ -1,9 +1,9 @@
-import React from 'react'
+
 import CounterApp from './component/CounterApp'
 
 const App = () => {
   return (
-    <div className='App w-[100%] h-[100vh] flex flex-col justify-center items-center'>
+    <div className='App w-[100%] h-[100vh] flex flex-col justify-center items-center bg-black'>
       <CounterApp/>
     </div>
   )

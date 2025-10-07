@@ -1,73 +1,54 @@
-# React + TypeScript + Vite
+# ⚡ Dynamic Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful and interactive **React + TypeScript + Vite** application that demonstrates state management, conditional rendering, and auto power-off functionality — all packed into a clean and dynamic counter interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Overview
 
-## React Compiler
+This **Dynamic Counter App** lets users manually input increment and decrement values, view the current stage value, and interact with the counter through intuitive controls.  
+It also features a **power control system** that enables or disables buttons, and a **smart auto-shutdown** that turns off the system after 15 minutes of inactivity.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🧮 **Dynamic Counter** — Set your own increment and decrement values.
+- 🔋 **Power Control System** — When power is ON, buttons are active; when OFF, they are disabled.
+- 🕒 **Auto Power Off** — Automatically turns off after 15 minutes of user inactivity.
+- 📝 **Text Length Finder** — Enter any text and instantly get its character count.
+- ⚙️ **Reset Function** — Instantly reset the counter to its initial stage value.
+- 🎨 **Clean UI** — Built with Tailwind CSS for a responsive, modern look.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🖼️ Screenshots
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| App Section | Preview |
+|--------------|----------|
+| 🏠 **Home / Counter Dashboard** | ![Counter Dashboard](./assets/counter1) |
+| ⚙️ **Power Control Active** | ![Power Control](./assets/counter2) |
+| 🧮 **Increment / Decrement Inputs** | ![Input Section](./assets/counter3) |
+| 🕒 **Text Length Finder** | ![Text Finder](./assets/counter4) |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🧠 Tech Stack
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- ⚛️ **React** (with Hooks & Context API)
+- 💬 **TypeScript**
+- ⚡ **Vite**
+- 🎨 **Tailwind CSS**
+
+---
+
+## 🧰 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/jeevan-sathish/counter-app.git
+   cd dynamic-counter-app
+   npm install
+   npm run dev
+
+      
