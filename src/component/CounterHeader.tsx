@@ -3,6 +3,7 @@ import { FaPowerOff } from "react-icons/fa";
 import { SiCounterstrike } from "react-icons/si";
 import { usePower } from "../component/context/PowerContext";
 
+
 const CounterHeader: React.FC = () => {
   const { power, setPower } = usePower();
   

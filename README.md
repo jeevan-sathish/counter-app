@@ -26,10 +26,10 @@ It also features a **power control system** that enables or disables buttons, an
 
 | App Section | Preview |
 |--------------|----------|
-| 🏠 **Home / Counter Dashboard** | ![Counter Dashboard](./assets/counter1) |
-| ⚙️ **Power Control Active** | ![Power Control](./assets/counter2) |
+| 🏠 **Home / Counter Dashboard** | ![Counter Dashboard](../assets/counter1) |
+| ⚙️ **Power Control Active** | ![Power Control](../assets/counter2) |
 | 🧮 **Increment / Decrement Inputs** | ![Input Section](./assets/counter3) |
-| 🕒 **Text Length Finder** | ![Text Finder](./assets/counter4) |
+| 🕒 **Text Length Finder** | ![Text Finder](../assets/counter4) |
 
 ---
 
